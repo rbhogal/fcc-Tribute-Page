@@ -2,6 +2,8 @@
 
 
 <style>
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
   
   html {
     border: 15px solid white;
@@ -10,8 +12,8 @@
   }
      
   body {
-    background-color: #DCC7AA;
-    font-family: sans-serif;
+    background-color: #beef00;
+    font-family: Sen, sans-serif;
   }
  
   #image {
@@ -28,18 +30,35 @@
   #list {
     text-align: justify;
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto
   }
 
   #list-div {
+    border-radius: 10px;
     text-align: center;
+    background-color: #ff0028;
+    margin: 0px 200px 0px 200px;
+     
   }
 
   #img-div {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 10px;
+    border-radius: 10px;
+    margin: 0px 200px 0px 200px;
   }
 
+  #title {
+    font-size: 60px;
+    font-weight: 800;
+  }
+  
+  #footer {
+    font-weight: 700;
+    font-size: 25px;
+  }
   
 </style>
 
@@ -49,9 +68,12 @@
   <br>
   <h1 id="title">DJ Premier</h1>
   
+  <p> "One of the best yet" </p>
+  <br>
+  
   <div id="img-div">
     <img id="image", src="https://lh5.googleusercontent.com/proxy/Bmai_M-w6DKqshA1klDwqWpB5foIbds-rJQFE2iIprzblXL1PSNMk9wsEXq8Jf6CVfCnT1pkoA" alt="DJ Premier dj'ing on turntables on stage.">
-    <h2 id="img-caption">One of the greatest of all time (G.O.A.T.)</h2>
+    <h2 id="img-caption">Dj Premier on the turntables at Club Unique</h2>
   </div>
 
   <div id="tribute-info"> 
@@ -78,7 +100,7 @@ He continues to produce for artists old and new, with recent contemperaies such 
           <iframe src="https://open.spotify.com/embed/track/0trHOzAhNpGCsGBEu7dOJo" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> 
           <br>
           <br>
-          <li><strong>1995:</strong> KRS-One - "MC's Act Like They Don't Know"</li>
+          <li><strong>1995:</strong> KRS-One - "MC's Act Like The Don't Know"</li>
           <br>
           <iframe src="https://open.spotify.com/embed/track/0snDRsjNRMJhm7SVja8l6J" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           <br>
@@ -156,7 +178,10 @@ He continues to produce for artists old and new, with recent contemperaies such 
         </ul>
       </div>
   </div>
-
-  <footer>Learn more about one of the G.O.A.T.s on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/DJ_Premier" target="_blank">wiki page</a>.</footer>
-
+  <br>
+  <br>
+  <footer id="footer">Learn more about one of the G.O.A.T.s on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/DJ_Premier" target="_blank">wiki page</a>.</footer>
+  <br>
+  <br>
+  
 </main>
