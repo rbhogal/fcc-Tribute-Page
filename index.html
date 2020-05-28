@@ -19,8 +19,8 @@
   #image {
     max-width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto; 
+    margin: 0 auto;
+    min-width: 341px;
   }
 
   #main {
@@ -28,30 +28,33 @@
   }
   
   #bio {
-    padding: 20px 400px 20px 400px;
+    padding: 20px 400px;
   }
 
   #list {
     text-align: justify;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto
+    margin: 10 auto;
   }
 
   #list-div {
     border-radius: 10px;
     text-align: center;
     background-color: #ff0028;
-    margin: 0px 700px 0px 700px;
+    width: 450px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
      
   }
 
   #img-div {
     background-color: white;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 10px;
     border-radius: 10px;
-    margin: 0px 700px 0px 700px;
+    width: 450px;
+    margin: 0 auto;
   }
 
   #title {
@@ -66,6 +69,12 @@
 
   a:hover {
     color:#ff0028;
+  }
+  
+  @media only screen and (max-width: 1140px) {
+    #bio {
+      padding: 20px 200px;
+    }
   }
   
 </style>
